@@ -10,26 +10,29 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="358.0" prefWidth="489.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="57.0" layoutY="108.0" text="INGRESO " textFill="#14d5d9">
+      <Label layoutX="61.0" layoutY="111.0" text="INGRESO " textFill="#14d5d9">
          <font>
             <Font name="Georgia Bold Italic" size="22.0" />
          </font>
       </Label>
-      <Button layoutX="183.0" layoutY="270.0" mnemonicParsing="false" text="INGRESAR" />
-      <TextField fx:id="TF_REGISTER" layoutX="46.0" layoutY="192.0" />
+      <Button layoutX="301.0" layoutY="271.0" mnemonicParsing="false" text="INGRESAR">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <TextField fx:id="TF_REGISTER" layoutX="265.0" layoutY="200.0" />
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="20.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../../Desktop/ban-icesi.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="125.0" fitWidth="134.0" layoutX="272.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="125.0" fitWidth="134.0" layoutX="38.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../../Downloads/user-icon-png-pnglogocom-133466.png" />
          </image>
       </ImageView>
-      <Label layoutX="57.0" layoutY="162.0" text="CEDULA (ID) :" textFill="WHITE">
+      <Label layoutX="265.0" layoutY="161.0" text="CEDULA (ID) :" textFill="WHITE">
          <font>
-            <Font name="System Bold" size="12.0" />
+            <Font name="System Bold" size="15.0" />
          </font>
       </Label>
    </children>
