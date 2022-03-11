@@ -1,5 +1,5 @@
 package control;
-import java.io.IOException;
+
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -9,6 +9,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import main.Main;
+import model.PasswordsData;
 
 public class RegisterUserControll implements Initializable {
 	
@@ -19,24 +20,15 @@ public class RegisterUserControll implements Initializable {
 	    private TextField TF_REGISTER;
 
 	    @FXML
-	    void ingresarLobby(ActionEvent event) throws IOException{
-	    	checkLogin();
+	    void ingresarLobby(ActionEvent event) {
+	    	System.out.println("Submit");
+	    	
+	    	String pass = TF_REGISTER.getText();
+	    	PasswordsData.passwords.add(pass);
 
 	    }
 	    
-	    private void checkLogin() throws IOException{
-	    	Main m = new Main();
-	    	
-	    	if(TF_REGISTER.getText().equals("246") ) {
-	    		
-	    		m.changeScene("LOBBY.fxml");
-	    		
-	    	}
-	    	
-	    	else if(TF_REGISTER.getText().isEmpty()) {
-	    		System.out.println("datos erroneos");
-	    	}
-	    }
+	    
 
 		@Override
 		public void initialize(URL location, ResourceBundle resources) {

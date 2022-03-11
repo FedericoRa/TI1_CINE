@@ -15,7 +15,7 @@
             <Font name="Georgia Bold Italic" size="22.0" />
          </font>
       </Label>
-      <Button layoutX="301.0" layoutY="271.0" mnemonicParsing="false" text="INGRESAR">
+      <Button fx:id="BTT_REGITRAR_USER" layoutX="301.0" layoutY="271.0" mnemonicParsing="false" onAction="#ingresarLobby" text="INGRESAR">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Button>

@@ -1,6 +1,5 @@
 package main;
 
-import java.io.IOException;
 
 import control.LOBBYControll;
 import control.RegisterUserControll;
@@ -9,12 +8,12 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import model.Passwords;
+import model.PasswordsData;
 
 public class Main extends Application {
 
 	public static void main(String[] args) {
-		Launch();
+		launch();
 
 	}
 	
@@ -23,7 +22,7 @@ public class Main extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		Passwords c1 = new Passwords("246");
+		PasswordsData c1 = new PasswordsData("246");
 		
 		
 		FXMLLoader loader = new FXMLLoader(Main.class.getResource("../ui/RegisterUser.fxml"));		
@@ -36,11 +35,11 @@ public class Main extends Application {
 		
 		stage.show();
 	
-		changeScene();
+		ingresarLobby();
 		
 	}
 	
-	public static void changeScene() throws Exception{
+	public static void ingresarLobby() throws Exception{
 		//cargador del fxml
     	FXMLLoader loader = new FXMLLoader(Main.class.getResource("../ui/LOBBY.fxml"));
     	
