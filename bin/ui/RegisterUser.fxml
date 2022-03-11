@@ -22,12 +22,12 @@
       <TextField fx:id="TF_REGISTER" layoutX="265.0" layoutY="200.0" />
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="20.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../Desktop/ban-icesi.png" />
+            <Image url="@../../docs/imagenes/ban-icesi.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="125.0" fitWidth="134.0" layoutX="38.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../Downloads/user-icon-png-pnglogocom-133466.png" />
+            <Image url="@../../docs/imagenes/user-icon-png-pnglogocom-133466.png" />
          </image>
       </ImageView>
       <Label layoutX="265.0" layoutY="161.0" text="CEDULA (ID) :" textFill="WHITE">

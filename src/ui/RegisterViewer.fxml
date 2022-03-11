@@ -16,7 +16,7 @@
          <font>
             <Font name="System Bold" size="15.0" />
          </font></Label>
-      <Label layoutX="41.0" layoutY="172.0" text="ESPECTADOR:" textFill="WHITE">
+      <Label layoutX="41.0" layoutY="172.0" text="ID:" textFill="WHITE">
          <font>
             <Font name="System Bold" size="15.0" />
          </font></Label>
@@ -25,14 +25,19 @@
             <Font name="Georgia Bold Italic" size="22.0" />
          </font>
       </Label>
-      <Button layoutX="170.0" layoutY="268.0" mnemonicParsing="false" text="REGISTRAR">
+      <Button layoutX="170.0" layoutY="268.0" mnemonicParsing="false" onAction="#regresoR_E" text="REGISTRAR">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Button>
       <ImageView fitHeight="158.0" fitWidth="165.0" layoutX="257.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../Desktop/pngwing.com.png" />
+            <Image url="@../../docs/imagenes/pngwing.com.png" />
          </image>
       </ImageView>
+      <Button fx:id="BTT_REGISTRAR_ESPECTADOR" layoutX="25.0" layoutY="309.0" mnemonicParsing="false" text="REGRESAR">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
