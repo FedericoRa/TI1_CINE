@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="206.0" prefWidth="674.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="282.0" fitWidth="240.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../docs/imagenes/welcome%20neon.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="280.0" layoutY="25.0" text="Añadir espectador" textFill="#14d5d9">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="507.0" layoutY="25.0" text="Añadir función" textFill="#14d5d9">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="BTT_ADD_FUNCION" layoutX="506.0" layoutY="58.0" mnemonicParsing="false" onAction="#movieScene" prefHeight="117.0" prefWidth="113.0" style="-fx-background-color: BLACK;" textFill="#040404">
+         <graphic>
+            <ImageView fitHeight="112.0" fitWidth="114.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../docs/imagenes/cinema%20neon.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="BTT_ADD_VIEWER" layoutX="290.0" layoutY="59.0" mnemonicParsing="false" onAction="#viewerScene" prefHeight="96.0" prefWidth="94.0" style="-fx-background-color: BLACK;">
+         <graphic>
+            <ImageView fitHeight="111.0" fitWidth="112.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../docs/imagenes/USER%20VIEWER%20NEON.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

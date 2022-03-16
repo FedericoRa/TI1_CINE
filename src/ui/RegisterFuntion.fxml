@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="466.0" prefWidth="536.0" style="-fx-background-color: #AAACCAA4;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+	   <children>
+	      <TextField fx:id="nombreTF" layoutX="117.0" layoutY="37.0" />
+	      <TextField fx:id="diaTF" layoutX="95.0" layoutY="129.0" prefHeight="31.0" prefWidth="112.0" />
+	      <TextField fx:id="horaRealTF" layoutX="109.0" layoutY="246.0" prefHeight="31.0" prefWidth="67.0" />
+	      <TextField fx:id="horaDuracionTF" layoutX="116.0" layoutY="300.0" prefHeight="31.0" prefWidth="132.0" />
+	      <TextField fx:id="salaTF" layoutX="120.0" layoutY="355.0" />
+	      <TextField fx:id="mesTF" layoutX="106.0" layoutY="185.0" prefHeight="31.0" prefWidth="73.0" />
+	      <TextField fx:id="minutosHoraTF" layoutX="277.0" layoutY="300.0" prefHeight="31.0" prefWidth="83.0" />
+	      <TextField fx:id="MinutosTF" layoutX="210.0" layoutY="246.0" prefHeight="31.0" prefWidth="83.0" />
+	      <Label layoutX="58.0" layoutY="35.0" prefHeight="28.0" prefWidth="73.0" text="Name">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+	      <Label layoutX="207.0" layoutY="85.0" text="Fecha">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+	      <Label layoutX="58.0" layoutY="131.0" text="Dia">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+	      <Label layoutX="59.0" layoutY="187.0" prefHeight="21.0" prefWidth="47.0" text="Mes">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+	      <Label layoutX="62.0" layoutY="248.0" text="Hora">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+	      <Label layoutX="263.0" layoutY="298.0" text=":">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+	      <Label layoutX="63.0" layoutY="307.0" text="Duration" />
+	      <Label layoutX="192.0" layoutY="245.0" text=":">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+	      <Label layoutX="67.0" layoutY="359.0" text="Room" />
+	      <Button fx:id="registrarBTN" layoutX="245.0" layoutY="407.0" mnemonicParsing="false" onAction="#registerFunction" text="Registrar">
+         <font>
+            <Font size="21.0" />
+         </font></Button>
+      <ImageView fitHeight="173.0" fitWidth="226.0" layoutX="286.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../animacion.jpg" />
+         </image>
+      </ImageView>
+	   </children>
+	</AnchorPane>
