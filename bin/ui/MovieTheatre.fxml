@@ -5,37 +5,36 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="376.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="159.0" layoutY="136.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="2" />
-      <Button layoutX="214.0" layoutY="191.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="12" />
-      <Button layoutX="435.0" layoutY="136.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="7" />
-      <Button layoutX="378.0" layoutY="136.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="6" />
-      <Button layoutX="435.0" layoutY="192.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="8" />
-      <Button layoutX="323.0" layoutY="136.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="5" />
-      <Button layoutX="270.0" layoutY="136.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="4" />
-      <Button layoutX="214.0" layoutY="136.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="3" />
-      <Button layoutX="107.0" layoutY="192.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="14" />
-      <Button layoutX="214.0" layoutY="294.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="26" />
-      <Button layoutX="270.0" layoutY="192.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="11" />
-      <Button layoutX="323.0" layoutY="191.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="10" />
-      <Button layoutX="379.0" layoutY="192.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="9" />
-      <Button layoutX="435.0" layoutY="244.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="21" />
-      <Button layoutX="435.0" layoutY="294.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="22" />
-      <Button layoutX="378.0" layoutY="244.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="20" />
-      <Button layoutX="323.0" layoutY="244.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="19" />
-      <Button layoutX="270.0" layoutY="244.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="18" />
-      <Button layoutX="214.0" layoutY="244.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="17" />
-      <Button layoutX="159.0" layoutY="191.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="13" />
-      <Button layoutX="159.0" layoutY="244.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="16" />
-      <Button layoutX="107.0" layoutY="136.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="1" />
-      <Button layoutX="159.0" layoutY="294.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="27" />
-      <Button layoutX="107.0" layoutY="244.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="15" />
-      <Button layoutX="270.0" layoutY="294.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="25" />
-      <Button layoutX="107.0" layoutY="294.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="28" />
-      <Button layoutX="323.0" layoutY="294.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="24" />
-      <Button layoutX="379.0" layoutY="294.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="23" />
+      <Button fx:id="A2" layoutX="159.0" layoutY="136.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="2" />
+      <Button fx:id="B12" layoutX="214.0" layoutY="191.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="12" />
+      <Button fx:id="A7" layoutX="435.0" layoutY="136.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="7" />
+      <Button fx:id="A6" layoutX="378.0" layoutY="136.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="6" />
+      <Button fx:id="B8" layoutX="435.0" layoutY="192.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="8" />
+      <Button fx:id="A5" layoutX="323.0" layoutY="136.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="5" />
+      <Button fx:id="A4" layoutX="270.0" layoutY="136.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="4" />
+      <Button fx:id="A3" layoutX="214.0" layoutY="136.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="3" />
+      <Button fx:id="B14" layoutX="107.0" layoutY="192.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="14" />
+      <Button fx:id="B26" layoutX="214.0" layoutY="294.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="26" />
+      <Button fx:id="B11" layoutX="270.0" layoutY="192.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="11" />
+      <Button fx:id="B10" layoutX="323.0" layoutY="191.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="10" />
+      <Button fx:id="B9" layoutX="379.0" layoutY="192.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="9" />
+      <Button fx:id="B21" layoutX="435.0" layoutY="244.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="21" />
+      <Button fx:id="B22" layoutX="435.0" layoutY="294.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="22" />
+      <Button fx:id="B20" layoutX="378.0" layoutY="244.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="20" />
+      <Button fx:id="B19" layoutX="323.0" layoutY="244.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="19" />
+      <Button fx:id="B18" layoutX="270.0" layoutY="244.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="18" />
+      <Button fx:id="B17" layoutX="214.0" layoutY="244.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="17" />
+      <Button fx:id="B13" layoutX="159.0" layoutY="191.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="13" />
+      <Button fx:id="B16" layoutX="159.0" layoutY="244.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="16" />
+      <Button fx:id="A1" layoutX="107.0" layoutY="136.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="1" />
+      <Button fx:id="B27" layoutX="159.0" layoutY="294.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="27" />
+      <Button fx:id="B15" layoutX="107.0" layoutY="244.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="15" />
+      <Button fx:id="B25" layoutX="270.0" layoutY="294.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="25" />
+      <Button fx:id="B28" layoutX="107.0" layoutY="294.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="28" />
+      <Button fx:id="B24" layoutX="323.0" layoutY="294.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="24" />
+      <Button fx:id="B23" layoutX="379.0" layoutY="294.0" mnemonicParsing="false" onMouseClicked="#changeColor" prefHeight="45.0" prefWidth="45.0" text="23" />
       <Button layoutX="83.0" layoutY="65.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="434.0" style="-fx-background-color: grey;" text="Pantalla" />
       <Label layoutX="83.0" layoutY="150.0" text="A" textFill="WHITE" />
       <Label layoutX="84.0" layoutY="206.0" text="B" textFill="WHITE" />
